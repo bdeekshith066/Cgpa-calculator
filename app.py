@@ -39,7 +39,7 @@ gradient_text_html = """
 # Display the gradient text HTML
 st.markdown(gradient_text_html, unsafe_allow_html=True)
 
-col1, col2, col3 = st.columns([1, .1, .9])
+col1, col2, col3 = st.columns([0.8, 0.1, 0.9])
 
 with col1:
     st.image('f1cgpa.png', width=680 , caption='Result Sheet of First Sem')
