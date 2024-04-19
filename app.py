@@ -69,5 +69,6 @@ with col3:
     st.write('7. Calculate the Semester Grade Point Average (SGPA):')
     st.write('      SGPA = Total Grade Points / Total Credits = :orange[8.9]')
     st.write('8. Calculate the Cumulative Grade Point Average (CGPA):')
-    st.write('      CGPA is the cumulative GPA. Calculate the SGPA for the second semester, add both semesters\' grade points, add both semesters\' credit scores, and then divide.')
+
+st.write('      CGPA is the cumulative GPA. Calculate the SGPA for the second semester, add both semesters\' grade points, add both semesters\' credit scores, and then divide.')
 
