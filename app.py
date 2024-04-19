@@ -61,8 +61,7 @@ with col3:
     st.header('Steps to :orange[Calculate]')
     st.write('')
     st.write('')
-    st.write('1. Know the :orange[credit] value of each subject. If you are unsure refer to syllabus copy.  [Click here](Syllabus.pdf)')
-    # Display the download button
+    st.write('1. Know the :orange[credit] value of each subject. If you are unsure refer to syllabus copy.')
     download_button = st.download_button(label="Click here to download syllabus", data=file_path, file_name="Syllabus.pdf")
     st.write('2. Refer to the :orange[grading points table] provided and examine the uploaded :orange[results sheet] image.')
     st.write('   - For instance,the :orange[math] score is :orange[80],which falls within the range of :orange[>=80 and <90], which is graded 9 points.Math is a :orange[ 4-credit] course.')
