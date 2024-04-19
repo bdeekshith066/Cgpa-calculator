@@ -39,6 +39,9 @@ gradient_text_html = """
 # Display the gradient text HTML
 st.markdown(gradient_text_html, unsafe_allow_html=True)
 
+st.write('')
+st.write('')
+
 col1, col2, col3 = st.columns([0.8, 0.1, 0.9])
 
 with col1:
