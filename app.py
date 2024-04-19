@@ -42,9 +42,9 @@ st.markdown(gradient_text_html, unsafe_allow_html=True)
 col1, col2, col3 = st.columns([0.8, 0.1, 0.9])
 
 with col1:
-    st.image('f1cgpa.png', width=680 , caption='Result Sheet of First Sem')
+    st.image('f1cgpa.png', width=580 , caption='Result Sheet of First Sem')
     st.write('')
-    st.image('calculator.jpg', width = 690, caption='Grade points Table')
+    st.image('calculator.jpg', width = 590, caption='Grade points Table')
   
 
 with col2:  
