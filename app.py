@@ -34,6 +34,34 @@ gradient_text_html = """
         }
         </style>
         <div class="gradient-text-container">
+            <div class="gradient-text">Exam Tips</div>
+        </div>
+        """
+
+# Display the gradient text HTML
+st.markdown(gradient_text_html, unsafe_allow_html=True)
+st.write('---')
+st.write(' Carry your ID card, hall ticket with photo, and calculator to the exam hall.')
+st.write('Inviligation during SEE is strict with high chances of squads checking pockets, pouches. Strict actions will be taken for malpractice.')
+st.write('Dont be late to cie, for SEE max 5-10 mins u can be late. Makesure you are on time')
+st.write('Say u have got 43/50 in CIE consoliated week , if will have to get 47(94 in SEE) for O or 37(74 in SEE) for A+ even if u get 46 or any makrs between 37 to 46 u will get A+ so plan accordingly and study')
+st.write('Labs is where you need to maximise the marks , becuase 1 marks u get in lab = 4 marks you get in cie. Subjects having labs 25 is for lab 20 for cie and quiz is for 5 marks. Cie is (cie 1+ cie 2)/4')
+st.write('Subject is not having labs then Your cie marks will be divided by 2 , so here cie marks is more affecting your cgpa . Even if u get 33/40 in both cies and 9 in quiz...Your marks in 42/50.')
+st.write('Quiz is one thing where u have to score really well its ypur marks booster ')
+st.write('Make sure you have a better score in cies always u will have a boost. SEE its comparitively hard to study ')
+gradient_text_html = """
+        <style>
+        .gradient-text {
+            font-weight: bold;
+            background: -webkit-linear-gradient(left, #07539e, #4fc3f7, #ffffff);
+            background: linear-gradient(to right, #07539e, #4fc3f7, #ffffff);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            display: inline;
+            font-size: 3em;
+        }
+        </style>
+        <div class="gradient-text-container">
             <div class="gradient-text">CGPA Calculator</div>
         </div>
         """
