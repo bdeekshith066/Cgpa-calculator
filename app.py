@@ -75,7 +75,7 @@ st.write('')
 col1, col2, col3 = st.columns([0.8, 0.1, 0.9])
 
 with col1:
-    st.image('f1cgpa.png', width=480 , caption='Result Sheet of First Sem')
+    st.image('cgpa photo.jpg', width=480 , caption='Result Sheet of First Sem')
     st.write('')
     st.image('calculator.jpg', width = 490, caption='Grade points Table')
   
